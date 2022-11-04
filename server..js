@@ -8,7 +8,7 @@ app.get('/',(req,res)=>{
 })
 app.get('/visitas',(req,res)=>{
     views++;
-    res.send(`<p>La cantidad de visitas es ${n}</p>`)
+    res.send(`<p>La cantidad de visitas es ${views}</p>`)
 })
 app.get('/fyh',(req,res)=>{
     const currentTime = new Date().toLocaleString()
